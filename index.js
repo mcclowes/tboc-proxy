@@ -4,7 +4,8 @@ const port = process.env.PORT || 8080
 const ALLOWED_HOSTS = [
   "spreadsheets.google.com",
   "docs.google.com",
-  "google.com"
+  "google.com",
+  "sheets.googleapis.com",
 ]
 
 const server = require("express")()
