@@ -2,10 +2,7 @@ const host = process.env.HOST || "0.0.0.0"
 const port = process.env.PORT || 8080
 
 const ALLOWED_HOSTS = [
-  "spreadsheets.google.com",
-  "docs.google.com",
-  "google.com",
-  "sheets.googleapis.com",
+  "what-the-fpl-api.vercel.app"
 ]
 
 const server = require("express")()
