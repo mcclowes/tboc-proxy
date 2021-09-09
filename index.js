@@ -2,7 +2,8 @@ const host = process.env.HOST || "0.0.0.0"
 const port = process.env.PORT || 8080
 
 const ALLOWED_HOSTS = [
-  "what-the-fpl-api.vercel.app"
+  "what-the-fpl-api.vercel.app",
+  "fantasy.premierleague.com"
 ]
 
 const server = require("express")()
